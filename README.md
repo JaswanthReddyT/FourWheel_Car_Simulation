@@ -69,19 +69,7 @@ four_wheel_sim/
 ```
 
 ---
-## 🛠️ Build Instructions
-Create a workspace and build:
 
-```bash
-mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws/src
-git clone <your-repo-url>
-cd ..
-colcon build
-source install/setup.bash
-```
-
----
 ## ▶️ Run the Simulation
 Launch Gazebo and spawn the robot:
 
@@ -109,12 +97,12 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 Controls:
 
 ```ini
-w = move forward
-s = move backward
-a = turn left
-d = turn right
+i/I = move forward
+,/< = move backward
+j/J = turn left
+l/L = turn right
 ```
-- teleop twist keyboard interface
+Teleop twist keyboard interface
 
 ![Robot in Gazebo](teleop_keyboard.png)
 
@@ -156,8 +144,6 @@ It converts `/cmd_vel` → wheel velocities.
 - Differential-drive motion
 
 - Keyboard control out of the box
-
-- Clean and reusable package
 
 - Perfect for beginners and simulation demos
 
