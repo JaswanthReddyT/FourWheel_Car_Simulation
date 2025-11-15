@@ -94,6 +94,9 @@ This launch file:
   - Spawns the four-wheel robot
   
   - Loads diff_drive_controller
+Four wheel car is launched in Gazebo environment
+
+![Robot in Gazebo](car.png)
 
 ---
 ## 🎮 Keyboard Teleoperation
@@ -111,6 +114,9 @@ s = move backward
 a = turn left
 d = turn right
 ```
+- teleop twist keyboard interface
+
+![Robot in Gazebo](teleop_keyboard.png)
 
 ---
 ## 🧠 How It Works
@@ -164,16 +170,6 @@ It converts `/cmd_vel` → wheel velocities.
   - Implement autonomous navigation (Nav2)
   
   - Add SLAM or mapping
-
----
-## 📸 Screenshots
-
-
-```scss
-![Robot in Gazebo](images/sim1.png)
-![Keyboard Teleop](images/teleop.png)
-```
-
 ---
 ## 📜 License
 
