@@ -1,11 +1,12 @@
 # 🚗FourWheel_Car_Simulation
 ![Project Type](https://img.shields.io/badge/Type-Simulation%20Project-critical?logo=arduino&logoColor=white)
 ![Drone Type](https://img.shields.io/badge/chassis-FourWheel-success?logo=rocket&logoColor=white)
-![Flight Mode: Offboard](https://img.shields.io/badge/Ubuntu-22.04-green?logo=joystick&logoColor=white)
+![Linux](https://img.shields.io/badge/OS-Ubuntu%2022.04-green)
 ![Framework: ROS2](https://img.shields.io/badge/Framework-ROS2-0A66C2?logo=ros&logoColor=white)
 ![Gazebo Classic](https://img.shields.io/badge/Simulator-Gazebo--Classic-yellow?logo=opengl&logoColor=white)
 ![Navigation: Waypoints](https://img.shields.io/badge/Controller-Teleop-blueviolet?logo=map&logoColor=white)
 [![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 ---
 ## 🧑‍💻 Author
 ***T.Jaswanth Reddy***   
